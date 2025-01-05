@@ -1,0 +1,3 @@
+C:/Users/kiv_k/CLionProjects/homework CPP/cmake-build-debug/CMakeFiles/homework_CPP.dir
+C:/Users/kiv_k/CLionProjects/homework CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kiv_k/CLionProjects/homework CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
