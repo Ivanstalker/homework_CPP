@@ -121,12 +121,6 @@ build CMakeFiles/Classwork.dir/cw_1.cpp.obj: CXX_COMPILER__Classwork_unscanned_D
   OBJECT_DIR = CMakeFiles\Classwork.dir
   OBJECT_FILE_DIR = CMakeFiles\Classwork.dir
 
-build CMakeFiles/Classwork.dir/cw_4.cpp.obj: CXX_COMPILER__Classwork_unscanned_Debug C$:/Users/kiv_k/CLionProjects/homework$ CPP/cw_4.cpp || cmake_object_order_depends_target_Classwork
-  DEP_FILE = CMakeFiles\Classwork.dir\cw_4.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Classwork.dir
-  OBJECT_FILE_DIR = CMakeFiles\Classwork.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Classwork
@@ -135,7 +129,7 @@ build CMakeFiles/Classwork.dir/cw_4.cpp.obj: CXX_COMPILER__Classwork_unscanned_D
 #############################################
 # Link the executable Classwork.exe
 
-build Classwork.exe: CXX_EXECUTABLE_LINKER__Classwork_Debug CMakeFiles/Classwork.dir/cw_1.cpp.obj CMakeFiles/Classwork.dir/cw_4.cpp.obj
+build Classwork.exe: CXX_EXECUTABLE_LINKER__Classwork_Debug CMakeFiles/Classwork.dir/cw_1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Classwork.dir
@@ -244,6 +238,72 @@ build classwork_4.exe: CXX_EXECUTABLE_LINKER__classwork_4_Debug CMakeFiles/class
   TARGET_IMPLIB = libclasswork_4.dll.a
   TARGET_PDB = classwork_4.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target homework_3
+
+
+#############################################
+# Order-only phony target for homework_3
+
+build cmake_object_order_depends_target_homework_3: phony || .
+
+build CMakeFiles/homework_3.dir/homework_3.cpp.obj: CXX_COMPILER__homework_3_unscanned_Debug C$:/Users/kiv_k/CLionProjects/homework$ CPP/homework_3.cpp || cmake_object_order_depends_target_homework_3
+  DEP_FILE = CMakeFiles\homework_3.dir\homework_3.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\homework_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework_3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target homework_3
+
+
+#############################################
+# Link the executable homework_3.exe
+
+build homework_3.exe: CXX_EXECUTABLE_LINKER__homework_3_Debug CMakeFiles/homework_3.dir/homework_3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\homework_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework_3.exe
+  TARGET_IMPLIB = libhomework_3.dll.a
+  TARGET_PDB = homework_3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target classwork_5
+
+
+#############################################
+# Order-only phony target for classwork_5
+
+build cmake_object_order_depends_target_classwork_5: phony || .
+
+build CMakeFiles/classwork_5.dir/classwork_5.cpp.obj: CXX_COMPILER__classwork_5_unscanned_Debug C$:/Users/kiv_k/CLionProjects/homework$ CPP/classwork_5.cpp || cmake_object_order_depends_target_classwork_5
+  DEP_FILE = CMakeFiles\classwork_5.dir\classwork_5.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\classwork_5.dir
+  OBJECT_FILE_DIR = CMakeFiles\classwork_5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target classwork_5
+
+
+#############################################
+# Link the executable classwork_5.exe
+
+build classwork_5.exe: CXX_EXECUTABLE_LINKER__classwork_5_Debug CMakeFiles/classwork_5.dir/classwork_5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\classwork_5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = classwork_5.exe
+  TARGET_IMPLIB = libclasswork_5.dll.a
+  TARGET_PDB = classwork_5.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -282,6 +342,10 @@ build classwork_3: phony classwork_3.exe
 
 build classwork_4: phony classwork_4.exe
 
+build classwork_5: phony classwork_5.exe
+
+build homework_3: phony homework_3.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -290,7 +354,7 @@ build classwork_4: phony classwork_4.exe
 #############################################
 # Folder: C:/Users/kiv_k/CLionProjects/homework CPP/cmake-build-debug
 
-build all: phony Homework.exe Homework_2.exe Classwork.exe classwork_2.exe classwork_3.exe classwork_4.exe
+build all: phony Homework.exe Homework_2.exe Classwork.exe classwork_2.exe classwork_3.exe classwork_4.exe homework_3.exe classwork_5.exe
 
 # =============================================================================
 # Built-in targets
