@@ -1,3 +1,4 @@
+//калькулятор цены со скидкой
 #include <iostream>
 
 using namespace std;
