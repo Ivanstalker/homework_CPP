@@ -11,5 +11,7 @@ C:/Users/kiv_k/CLionProjects/homework CPP/cmake-build-debug/CMakeFiles/classwork
 C:/Users/kiv_k/CLionProjects/homework CPP/cmake-build-debug/CMakeFiles/homework_4.dir
 C:/Users/kiv_k/CLionProjects/homework CPP/cmake-build-debug/CMakeFiles/homework_5.dir
 C:/Users/kiv_k/CLionProjects/homework CPP/cmake-build-debug/CMakeFiles/homework_6.dir
+C:/Users/kiv_k/CLionProjects/homework CPP/cmake-build-debug/CMakeFiles/classwork_8.dir
+C:/Users/kiv_k/CLionProjects/homework CPP/cmake-build-debug/CMakeFiles/classwork_9.dir
 C:/Users/kiv_k/CLionProjects/homework CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/kiv_k/CLionProjects/homework CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
