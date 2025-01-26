@@ -535,6 +535,72 @@ build classwork_9.exe: CXX_EXECUTABLE_LINKER__classwork_9_Debug CMakeFiles/class
   TARGET_IMPLIB = libclasswork_9.dll.a
   TARGET_PDB = classwork_9.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target homework_7
+
+
+#############################################
+# Order-only phony target for homework_7
+
+build cmake_object_order_depends_target_homework_7: phony || .
+
+build CMakeFiles/homework_7.dir/homework_7.cpp.obj: CXX_COMPILER__homework_7_unscanned_Debug C$:/Users/kiv_k/CLionProjects/homework$ CPP/homework_7.cpp || cmake_object_order_depends_target_homework_7
+  DEP_FILE = CMakeFiles\homework_7.dir\homework_7.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\homework_7.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework_7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target homework_7
+
+
+#############################################
+# Link the executable homework_7.exe
+
+build homework_7.exe: CXX_EXECUTABLE_LINKER__homework_7_Debug CMakeFiles/homework_7.dir/homework_7.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\homework_7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework_7.exe
+  TARGET_IMPLIB = libhomework_7.dll.a
+  TARGET_PDB = homework_7.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target classwork_10
+
+
+#############################################
+# Order-only phony target for classwork_10
+
+build cmake_object_order_depends_target_classwork_10: phony || .
+
+build CMakeFiles/classwork_10.dir/classwork_10.cpp.obj: CXX_COMPILER__classwork_10_unscanned_Debug C$:/Users/kiv_k/CLionProjects/homework$ CPP/classwork_10.cpp || cmake_object_order_depends_target_classwork_10
+  DEP_FILE = CMakeFiles\classwork_10.dir\classwork_10.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\classwork_10.dir
+  OBJECT_FILE_DIR = CMakeFiles\classwork_10.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target classwork_10
+
+
+#############################################
+# Link the executable classwork_10.exe
+
+build classwork_10.exe: CXX_EXECUTABLE_LINKER__classwork_10_Debug CMakeFiles/classwork_10.dir/classwork_10.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\classwork_10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = classwork_10.exe
+  TARGET_IMPLIB = libclasswork_10.dll.a
+  TARGET_PDB = classwork_10.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -567,6 +633,8 @@ build Homework: phony Homework.exe
 
 build Homework_2: phony Homework_2.exe
 
+build classwork_10: phony classwork_10.exe
+
 build classwork_2: phony classwork_2.exe
 
 build classwork_3: phony classwork_3.exe
@@ -591,6 +659,8 @@ build homework_5: phony homework_5.exe
 
 build homework_6: phony homework_6.exe
 
+build homework_7: phony homework_7.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -599,7 +669,7 @@ build homework_6: phony homework_6.exe
 #############################################
 # Folder: C:/Users/kiv_k/CLionProjects/homework CPP/cmake-build-debug
 
-build all: phony Homework.exe Homework_2.exe Classwork.exe classwork_2.exe classwork_3.exe classwork_4.exe homework_3.exe classwork_5.exe classwork_6.exe classwork_7.exe homework_4.exe homework_5.exe homework_6.exe classwork_8.exe classwork_9.exe
+build all: phony Homework.exe Homework_2.exe Classwork.exe classwork_2.exe classwork_3.exe classwork_4.exe homework_3.exe classwork_5.exe classwork_6.exe classwork_7.exe homework_4.exe homework_5.exe homework_6.exe classwork_8.exe classwork_9.exe homework_7.exe classwork_10.exe
 
 # =============================================================================
 # Built-in targets
