@@ -15,7 +15,7 @@ void replace(int *num_1, int *num_2) {
 
 int main() {
     // 1.	Объявите массив символов и инициализируйте его строкой "Programming".
-    /*char array_1[] = "Programing";
+    char array_1[] = "Programing";
     // 2.	Выведите каждый символ массива на экран.
     for (char i : array_1) {
         cout << i ;
@@ -74,7 +74,7 @@ int main() {
     }
     cout << k << endl;
 //     1.	Объявите строку и инициализируйте ее значением "Hello, C++!".
-    /*string name = "Hello, C++!";
+    string name = "Hello, C++!";
 // 2.	Выведите длину этой строки.
     cout << "длина строки = " << name.size() << endl;
 // 3.	Выведите первый и последний символы этой строки.
@@ -105,7 +105,7 @@ int main() {
     string word_1, word_2;
     cin >> word_1 >> word_2;
     string result = word_1 + ' ' + word_2;
-    cout << result << endl;*/
+    cout << result << endl;
 
 // 1.	Объявите целую переменную и указатель на нее.
     int a = 100;
@@ -147,7 +147,6 @@ int main() {
     cout << &ptr_7 << " : " << *ptr_7 << endl;
 
     
-
 
 
     int test;
