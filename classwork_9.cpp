@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 #include <random>
 #include <iostream>
 #include <vector>
@@ -87,17 +80,16 @@ int main() {
             const int N = 10;
             int mas[10];
             // 2.	Заполните массив случайными числами.
-            for (int &i : mas) {
+            for (int &i: mas) {
                 i = rand();
-
             }
             // 3.	Выведите все элементы массива на экран.
-            for (int &i : mas) {
+            for (int &i: mas) {
                 cout << i << endl;
             }
             // 4.	Найдите сумму и среднее арифметическое всех элементов массива.
             int sum = 0;
-            for (int &i : mas) {
+            for (int &i: mas) {
                 sum += i;
             }
             cout << endl << sum << endl;
@@ -105,7 +97,7 @@ int main() {
             // 5.	Найдите минимальный и максимальный элементы массива.
             int max = INT8_MIN;
             int min = INT16_MAX;
-            for (const int &i : mas) {
+            for (const int &i: mas) {
                 if (max < i) {
                     max = i;
                 }
@@ -124,31 +116,31 @@ int main() {
             // 7.	Напишите программу, которая позволяет пользователю ввести значения массива с консоли и затем выводит их на экран.
             int mas[10];
             for (int i = 0; i < 10; i++) {
-                cout << "введите число: " ;
+                cout << "введите число: ";
                 cin >> mas[i];
             }
-            for (int &i : mas) {
+            for (int &i: mas) {
                 cout << i << "";
             }
             break;
         }
         case 7: {
-    //1.	Объявите двумерный массив целых чисел размером 4x5.
+            //1.	Объявите двумерный массив целых чисел размером 4x5.
             int matrix[4][5];
-    //2.	Заполните массив случайными числами.
+            //2.	Заполните массив случайными числами.
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < 5; j++) {
                     matrix[i][j] = rand() % 10;
                 }
             }
-    //3.	Выведите все элементы массива в виде таблицы.
-            for (const auto &row : matrix) {
-                for (const int &value : row) {
+            //3.	Выведите все элементы массива в виде таблицы.
+            for (const auto &row: matrix) {
+                for (const int &value: row) {
                     cout << value << " ";
                 }
                 cout << endl;
             }
-    //4.	Найдите сумму всех элементов массива.
+            //4.	Найдите сумму всех элементов массива.
             int sum = 0;
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < 5; j++) {
@@ -156,16 +148,16 @@ int main() {
                 }
             }
             cout << endl << "sum= " << sum << endl << endl;
-    //5.	Найдите сумму элементов в каждой строке массива.
-            for (const auto &row : matrix) {
+            //5.	Найдите сумму элементов в каждой строке массива.
+            for (const auto &row: matrix) {
                 sum = 0;
-                for (const int &value : row) {
+                for (const int &value: row) {
                     sum += value;
                 }
                 cout << "sum_string= " << sum << endl;
             }
             cout << endl;
-    //6.	Найдите сумму элементов в каждом столбце массива.
+            //6.	Найдите сумму элементов в каждом столбце массива.
             for (int j = 0; j < 5; j++) {
                 sum = 0;
                 for (int i = 0; i < 4; i++) {
@@ -174,7 +166,7 @@ int main() {
                 cout << "stroka= " << sum << endl;
             }
             cout << endl;
-    //7.	Напишите программу, которая позволяет пользователю ввести значения для матрицы 3x3 и затем выводит их на экран.
+            //7.	Напишите программу, которая позволяет пользователю ввести значения для матрицы 3x3 и затем выводит их на экран.
             int matrix_2[3][3];
             for (int i = 0; i < 3; i++) {
                 for (int j = 0; j < 3; j++) {
@@ -182,25 +174,22 @@ int main() {
                     cin >> matrix_2[i][j];
                 }
             }
-            for (const auto &row : matrix_2) {
-                for (const int &value : row) {
+            for (const auto &row: matrix_2) {
+                for (const int &value: row) {
                     cout << value << " ";
                 }
                 cout << endl;
             }
-    //8.	Реализуйте функцию, которая транспонирует двумерный массив (меняет местами строки и столбцы).
+            //8.	Реализуйте функцию, которая транспонирует двумерный массив (меняет местами строки и столбцы).
             cout << endl;
             swap_matrix(matrix_2, 3, 3);
-            for (const auto &row : matrix_2) {
-                for (const int &value : row) {
+            for (const auto &row: matrix_2) {
+                for (const int &value: row) {
                     cout << value << " ";
                 }
                 cout << endl;
             }
-
-
         }
     }
     cin >> chose;
 }
-
