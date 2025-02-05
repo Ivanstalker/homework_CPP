@@ -766,6 +766,39 @@ build classwork_13.exe: CXX_EXECUTABLE_LINKER__classwork_13_Debug CMakeFiles/cla
   TARGET_IMPLIB = libclasswork_13.dll.a
   TARGET_PDB = classwork_13.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target homework_10
+
+
+#############################################
+# Order-only phony target for homework_10
+
+build cmake_object_order_depends_target_homework_10: phony || .
+
+build CMakeFiles/homework_10.dir/homework_10.cpp.obj: CXX_COMPILER__homework_10_unscanned_Debug C$:/Users/kiv_k/CLionProjects/homework$ CPP/homework_10.cpp || cmake_object_order_depends_target_homework_10
+  DEP_FILE = CMakeFiles\homework_10.dir\homework_10.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\homework_10.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework_10.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target homework_10
+
+
+#############################################
+# Link the executable homework_10.exe
+
+build homework_10.exe: CXX_EXECUTABLE_LINKER__homework_10_Debug CMakeFiles/homework_10.dir/homework_10.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\homework_10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework_10.exe
+  TARGET_IMPLIB = libhomework_10.dll.a
+  TARGET_PDB = homework_10.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -822,6 +855,8 @@ build classwork_8: phony classwork_8.exe
 
 build classwork_9: phony classwork_9.exe
 
+build homework_10: phony homework_10.exe
+
 build homework_3: phony homework_3.exe
 
 build homework_4: phony homework_4.exe
@@ -844,7 +879,7 @@ build homework_9: phony homework_9.exe
 #############################################
 # Folder: C:/Users/kiv_k/CLionProjects/homework CPP/cmake-build-debug
 
-build all: phony Homework.exe Homework_2.exe Classwork.exe classwork_2.exe classwork_3.exe classwork_4.exe homework_3.exe classwork_5.exe classwork_6.exe classwork_7.exe homework_4.exe homework_5.exe homework_6.exe classwork_8.exe classwork_9.exe homework_7.exe classwork_10.exe homework_8.exe classwork_11.exe homework_9.exe classwork_12.exe classwork_13.exe
+build all: phony Homework.exe Homework_2.exe Classwork.exe classwork_2.exe classwork_3.exe classwork_4.exe homework_3.exe classwork_5.exe classwork_6.exe classwork_7.exe homework_4.exe homework_5.exe homework_6.exe classwork_8.exe classwork_9.exe homework_7.exe classwork_10.exe homework_8.exe classwork_11.exe homework_9.exe classwork_12.exe classwork_13.exe homework_10.exe
 
 # =============================================================================
 # Built-in targets
